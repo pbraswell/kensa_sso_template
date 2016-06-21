@@ -18,5 +18,5 @@ post "/sso/login" do
   # session[:user] = account.id
   # session[:heroku_sso] = true
   cookies['heroku-nav-data'] = 'eyJhZGRvbiI6IllvdXIgQWRkb24iLCJhcHBuYW1lIjoibXlhcHAiLCJhZGRvbnMiOlt7InNsdWciOiJjcm9uIiwibmFtZSI6IkNyb24ifSx7InNsdWciOiJjdXN0b21fZG9tYWlucyt3aWxkY2FyZCIsIm5hbWUiOiJDdXN0b20gRG9tYWlucyArIFdpbGRjYXJkIn0seyJzbHVnIjoieW91cmFkZG9uIiwibmFtZSI6IllvdXIgQWRkb24iLCJjdXJyZW50Ijp0cnVlfV19'
-  # # redirect "/dashboard"
+  redirect "http://localhost:8080"
 end
